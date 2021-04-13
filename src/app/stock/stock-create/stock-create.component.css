@@ -1,0 +1,34 @@
+input{
+  border-radius: 15px;
+  border-width: 7px;
+  size: 40px;
+  width: 300px;
+  border-color: gray;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+label{
+  font-family: Consolas;
+  font-weight: bolder;
+  color: darkseagreen;
+  font-size: 23px;
+}
+.card-header{
+  text-align: center;
+  font-family: Consolas;
+  font-weight: bolder;
+  font-size: 23px;
+}
+button{
+  border-radius: 15px;
+  background-color: darkseagreen;
+  font-weight: bolder;
+  font-family: Consolas;
+  font-size: 15px;
+}
+.card{
+  margin-top: 25px;
+}
+

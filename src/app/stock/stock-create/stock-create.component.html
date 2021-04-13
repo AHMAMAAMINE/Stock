@@ -1,0 +1,52 @@
+<div class="card">
+  <div class="card-header">Ajout de stock</div>
+  <div class="card-body">
+    <div class="form-group">
+      <label >magasin</label>
+     <span > <i class="fa fa-info btn btn-secondary"></i><input type="text" class="form-control" [(ngModel)]="stock.magasin.reference"> </span>
+    </div>
+    <div class="form-group">
+      <label >produit</label>
+      <input type="text" class="form-control" [(ngModel)]="stock.produit.ref">
+    </div>
+    <div class="form-group">
+      <label >qteDeffectueuse</label>
+      <input type="number" class="form-control" [(ngModel)]="stock.qteDeffectueuse">
+    </div>
+    <div class="form-group">
+      <label >qte</label>
+      <input type="number" class="form-control" [(ngModel)]="stock.qte">
+    </div>
+
+
+  </div>
+  <div class="card-footer">
+    <button class="btn-block btn " [disabled]="empty() || sup()" (click)="Save()">Valider</button>
+  </div>
+</div>
+<!--<div class="card">-->
+<!--  <div class="card-header">CREATION Stock</div>-->
+<!--  <div class="card-body">-->
+<!--    <div class="card">-->
+<!--      <div class="card-header">Info Stock</div>-->
+<!--      <div class="card-body">-->
+<!--        <div class="form-group">-->
+<!--          <label>reference Magasin</label>-->
+<!--          <input class="form-control" type="text" [(ngModel)]="stock.magasin.reference">-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--          <label>Reference produit</label>-->
+<!--          <input class="form-control" type="text" [(ngModel)]="stock.produit.ref">-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--          <label>qteDeffectueuse</label>-->
+<!--          <input class="form-control" type="number" [(ngModel)]="stock.qteDeffectueuse">-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--          <label>qte</label>-->
+<!--          <input class="form-control" type="number" [(ngModel)]="stock.qte">-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    </div>-->
+<!--</div>-->
